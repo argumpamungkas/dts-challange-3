@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	fmt.Println("Masukkan Input:")
+	fmt.Println("Input:")
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	input := scanner.Text()
